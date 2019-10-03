@@ -19,4 +19,22 @@ print(5 + 3 + 2 - 5 % 6 / 6 + 8)
 # fixing the math
 print(5.0 + 3.3 + 2.0 - 5.0 % 6.7 / 6.0 + 8.0)
 
+# variables and some of their powers
+cars = 80
+spaceInACar = 4.0
+drivers = 45
+passengers = 115
+cars_not_driven = cars - drivers
+cars_driven = drivers
+carpool_capacity = spaceInACar * cars_driven
+average_passengers_per_car = passengers / cars_driven
+
+print("there are", cars, "cars available.")
+print("there are only", drivers, "deivers available today.")
+print("there will be", cars_not_driven, "empty cars today.")
+print("we can transport", carpool_capacity, "people today")
+print("we have", passengers, "to carpool today.")
+print("we need to put approximately", average_passengers_per_car, "people in each car." )
+
+
 
