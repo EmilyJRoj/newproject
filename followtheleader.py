@@ -36,5 +36,28 @@ print("we can transport", carpool_capacity, "people today")
 print("we have", passengers, "to carpool today.")
 print("we need to put approximately", average_passengers_per_car, "people in each car." )
 
+# using variables in my story
+seats = 460
+row_of_seats = 23
+audience = 340
+empty_seats = seats - audience
+seats = audience
+average_row_capacity = seats / row_of_seats
 
+print("there are", seats, "seats available.")
+print("there are only", row_of_seats, "row of seats available today.")
+print("there will be", empty_seats, "empty seats today.")
+
+
+# more variables and playing with output
+myName = "Emily"
+myAge = 15
+myHeight = 65 # inches
+myEyes = "brown"
+myHair = "yes, more"
+
+print("Lets talk about %s." % myName)
+print("She's %d inches tall." % myHeight)
+print("she's got %s eyes and %s hair." % (myEyes, myHair))
+print("if i add %d and %d, i get %d." % (myAge, myHeight, myAge+myHeight))
 
