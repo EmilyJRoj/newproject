@@ -61,3 +61,16 @@ print("She's %d inches tall." % myHeight)
 print("she's got %s eyes and %s hair." % (myEyes, myHair))
 print("if i add %d and %d, i get %d." % (myAge, myHeight, myAge+myHeight))
 
+# playing with the output on my own
+
+theName = "dog"
+theAge = 13
+theHeight = 12 # inches
+theEyes = "brown"
+theHair = "yes, some"
+
+print("Lets talk about %s." % theName)
+print("He's %d inches tall." % theHeight)
+print("he's got %s eyes and %s hair." % (theEyes, theHair))
+print("if i add %d and %d, i get %d." % (theAge, theHeight, theAge+theHeight))
+
